@@ -29,18 +29,18 @@ The program includes the following key functions:
 
 ==Program Files==
 main programs:
-Ex3q2a.c
-Ex3q2b.c
-Ex3q3a.c
+shm_writer.c
+shm_reader.c
+threads_calc.c
 compile and run:
-run_me2a.sh
-run_me2b.sh
-run_me_3.sh
+run_me_reader.sh
+run_me_writer.sh
+run_me_threads.sh
 
 ==how to compile==
-./run_me2a.sh
-./run_me2b.sh
-./run_me_3.sh
+./run_me_writer.sh
+./run_me_reader.sh
+./run_me_threads.sh
 
 ==input==
 Matrices and operations entered in the format (rows,cols:elements), followed by operation commands like ADD, SUB, MUL, AND, OR, NOT, TRANSPOSE, or END.
